@@ -1,0 +1,12 @@
+# download command/URL (optional)
+download:  https://docs.google.com/uc?export=download&id=1QKtJ6DHdHikxBlzxRurdfzXBnL-NKQ_G
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/drive/MyDrive/AI_ML/Colab_Notebooks/Torpedo/final_pro_for_trainees/the_pro/yolov3/data/shapes/images/train
+val:   /content/drive/MyDrive/AI_ML/Colab_Notebooks/Torpedo/final_pro_for_trainees/the_pro/yolov3/data/shapes/images/train
+
+# number of classes
+nc: 3
+
+# class names
+names: ['circle', 'square', 'triangle']
